@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="JAK Tech Firm — Your Campus Tech Support Hub. Windows installation, Office setup, laptop diagnostics & repairs, and general tech support at KNUST Campus, Kumasi." />
+  <meta name="theme-color" content="#0b5bd3" />
+  <title>JAK Tech Firm | Your Campus Tech Support Hub</title>
+
+  <!-- Open Graph (edit when you have a domain + logo) -->
+  <meta property="og:title" content="JAK Tech Firm" />
+  <meta property="og:description" content="Student-friendly pricing. Fast turnaround. Windows installation, Office setup, laptop repairs & support." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="JAK Tech Firm home">
+        <span class="brand-mark" aria-hidden="true">
+          <!-- simple laptop+gear mark -->
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5V14H4V6.5Z" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M2.5 18.5h19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <path d="M12 9.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M12 7.5v1.1M12 14.4v1.1M9.9 12h-1.1M15.2 12h-1.1M10.6 10.6l-.8-.8M14.2 14.2l-.8-.8M13.4 10.6l.8-.8M9.8 14.2l.8-.8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">JAK TECH FIRM</span>
+          <span class="brand-tag">Your Campus Tech Support Hub</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#book">Book</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="btn btn-ghost" href="#book">Book Now</a>
+        <a class="btn btn-primary" href="#" id="waTop">WhatsApp</a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#book">Book</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-primary" href="#" id="waTopMobile">WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="pill">Student-friendly pricing • Fast turnaround</div>
+          <h1>Fast, Reliable <span class="accent">Windows Installation</span> & Laptop Support</h1>
+          <p>
+            Get your system running smoothly again — Windows install & reactivation, Office setup, diagnostics & repairs,
+            and “anything tech” support around <strong>KNUST Campus, Kumasi</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#book">Book a Service</a>
+            <a class="btn btn-ghost btn-lg" href="#services">See Services</a>
+          </div>
+
+          <div class="hero-proof">
+            <div class="proof-item">
+              <div class="proof-num">Same-day</div>
+              <div class="proof-label">for common fixes</div>
+            </div>
+            <div class="proof-item">
+              <div class="proof-num">Clear</div>
+              <div class="proof-label">pricing upfront</div>
+            </div>
+            <div class="proof-item">
+              <div class="proof-num">Careful</div>
+              <div class="proof-label">data handling</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Quick contact card">
+          <div class="card">
+            <h3>Need help now?</h3>
+            <p class="muted">Chat with us on WhatsApp for quick support or to schedule.</p>
+
+            <div class="quick-actions">
+              <a class="btn btn-primary" href="#" id="waHero">Chat on WhatsApp</a>
+              <a class="btn btn-ghost" href="tel:+233594940421">Call: 059 494 0421</a>
+            </div>
+
+            <div class="mini-list">
+              <div class="mini-row"><span class="dot"></span> Windows Installation & Reactivation</div>
+              <div class="mini-row"><span class="dot"></span> Microsoft Office Suite Setup</div>
+              <div class="mini-row"><span class="dot"></span> Laptop Diagnostics & Repairs</div>
+              <div class="mini-row"><span class="dot"></span> General Tech Support</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Services</h2>
+          <p class="muted">Clean, fast setups and reliable repairs — built for students and busy schedules.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Software Services</h3>
+              <p class="muted">Installations, setups, troubleshooting.</p>
+            </div>
+
+            <div class="cards">
+              <article class="service-card">
+                <div class="icon">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M3 5.5A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5v13A2.5 2.5 0 0 1 18.5 21h-13A2.5 2.5 0 0 1 3 18.5v-13Z" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M3 12h18M12 3v18" stroke="currentColor" stroke-width="1.2" opacity="0.8"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Windows Installation & Reactivation</h4>
+                  <p class="muted">Get your operating system running smoothly again.</p>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <div class="icon">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M7 6.5A2.5 2.5 0 0 1 9.5 4h7A2.5 2.5 0 0 1 19 6.5v11A2.5 2.5 0 0 1 16.5 20h-7A2.5 2.5 0 0 1 7 17.5v-11Z" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M9.2 8.2h5.6M9.2 11.2h5.6M9.2 14.2h3.8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Microsoft Office Suite Setup</h4>
+                  <p class="muted">Word, Excel, PowerPoint — installed and ready for use.</p>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <div class="icon">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3Z" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M12 7.5v9M8.5 10l7 4" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Drivers, Updates & Performance Fixes</h4>
+                  <p class="muted">Smooth drivers, stable updates, faster boot and app performance.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Hardware & Repairs</h3>
+              <p class="muted">Diagnostics, parts advice, and fixes.</p>
+            </div>
+
+            <div class="cards">
+              <article class="service-card">
+                <div class="icon">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M5 7.5A2.5 2.5 0 0 1 7.5 5h9A2.5 2.5 0 0 1 19 7.5v9A2.5 2.5 0 0 1 16.5 19h-9A2.5 2.5 0 0 1 5 16.5v-9Z" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Spoilt Laptop Revival</h4>
+                  <p class="muted">Diagnostics and repairs for non-booting or faulty laptops.</p>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <div class="icon">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4 14.5 10.2 8.3a2.5 2.5 0 0 1 3.5 0l6.3 6.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                    <path d="M7 18.5h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                    <path d="M9 18.5v-2a3 3 0 0 1 6 0v2" stroke="currentColor" stroke-width="1.2" opacity="0.85"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Upgrades & Maintenance</h4>
+                  <p class="muted">SSD upgrades, cleaning, thermal paste check, and general maintenance.</p>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <div class="icon">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2.8 20.5 7v10L12 21.2 3.5 17V7L12 2.8Z" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M8.5 12h7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+                    <path d="M12 9.5v5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity="0.85"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>General Tech Support</h4>
+                  <p class="muted">Software, hardware & performance troubleshooting — we’ve got you.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Why students choose JAK</h2>
+          <p class="muted">Simple, transparent service — no long stories, just solutions.</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <h4>Fast turnaround</h4>
+            <p class="muted">Common installations and fixes can be completed the same day.</p>
+          </div>
+          <div class="why-card">
+            <h4>Student-friendly pricing</h4>
+            <p class="muted">Fair pricing and clear explanations before we proceed.</p>
+          </div>
+          <div class="why-card">
+            <h4>Careful with your data</h4>
+            <p class="muted">We prioritize backups and safe handling, especially during installs.</p>
+          </div>
+          <div class="why-card">
+            <h4>Clear communication</h4>
+            <p class="muted">We explain the problem and options in simple terms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="book" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Book a service</h2>
+          <p class="muted">Fill this quick form — we’ll open WhatsApp with your message ready to send.</p>
+        </div>
+
+        <div class="booking">
+          <form class="form" id="bookingForm">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" placeholder="e.g., Julius" required />
+            </div>
+
+            <div class="field">
+              <label for="phone">Your WhatsApp number</label>
+              <input id="phone" name="phone" type="tel" placeholder="e.g., 059 000 0000" required />
+            </div>
+
+            <div class="field">
+              <label for="service">Service needed</label>
+              <select id="service" name="service" required>
+                <option value="" selected disabled>Select a service</option>
+                <option>Windows Installation & Reactivation</option>
+                <option>Microsoft Office Suite Setup</option>
+                <option>Drivers, Updates & Performance Fixes</option>
+                <option>Spoilt Laptop Revival (Diagnostics & Repairs)</option>
+                <option>Upgrades & Maintenance (SSD, cleaning, etc.)</option>
+                <option>General Tech Support</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="details">Describe the issue</label>
+              <textarea id="details" name="details" rows="4" placeholder="Tell us what’s happening (e.g., not booting, slow, blue screen, keyboard issue)…" required></textarea>
+            </div>
+
+            <div class="field">
+              <label for="location">Your location</label>
+              <input id="location" name="location" type="text" placeholder="e.g., KNUST (Ayeduase/Brunei/Republic Hall…)" />
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary btn-lg" type="submit">Send on WhatsApp</button>
+              <a class="btn btn-ghost btn-lg" href="tel:+233509641607">Call: 050 964 1607</a>
+            </div>
+
+            <p class="tiny muted">
+              Tip: If you want an email-based form later (with an inbox dashboard), we can connect this to Formspree or a simple backend.
+            </p>
+          </form>
+
+          <div class="card side-card">
+
+            <h3>Quick links</h3>
+            <div class="quick-links">
+              <a href="#" id="waBookCard">WhatsApp us</a>
+              <a href="tel:+233594940421">Call 059 494 0421</a>
+              <a href="#contact">Location & socials</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">KNUST Campus, Kumasi • We respond fastest on WhatsApp.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Phone / WhatsApp</h3>
+            <p class="muted">
+              <a href="tel:+233594940421">059 494 0421</a> •
+              <a href="tel:+233509641607">050 964 1607</a>
+            </p>
+            <a class="btn btn-primary" href="#" id="waContact">Chat on WhatsApp</a>
+          </div>
+
+          <div class="card">
+            <h3>Instagram</h3>
+            <p class="muted">@jak_re4</p>
+            <a class="btn btn-ghost" href="https://instagram.com/jak_re4" target="_blank" rel="noopener">Open Instagram</a>
+          </div>
+
+          <div class="card">
+            <h3>Location</h3>
+            <p class="muted">KNUST Campus, Kumasi</p>
+            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=KNUST%20Campus%2C%20Kumasi" target="_blank" rel="noopener">Open in Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="footer-brand">JAK TECH FIRM</div>
+          <div class="tiny muted">© <span id="year"></span> JAK Tech Firm. All rights reserved.</div>
+        </div>
+        <div class="footer-right">
+          <a href="#services">Services</a>
+          <a href="#book">Book</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <a class="fab" href="#" id="waFab" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M20.5 11.6a8.6 8.6 0 0 1-12.8 7.5L3.5 20.5l1.4-4.0A8.6 8.6 0 1 1 20.5 11.6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M8.6 8.8c.2-.5.4-.6.8-.6h.7c.2 0 .4.1.5.4l.6 1.5c.1.2 0 .5-.1.7l-.4.5c-.1.2-.1.4 0 .6.5.9 1.3 1.6 2.2 2.1.2.1.4.1.6 0l.6-.4c.2-.1.5-.2.7-.1l1.5.6c.3.1.4.3.4.5v.7c0 .4-.1.6-.6.8-.7.3-2.1.5-3.7-.2-1.9-.8-3.6-2.5-4.4-4.4-.7-1.6-.5-3-.2-3.7Z" fill="currentColor" opacity="0.9"/>
+      </svg>
+    </a>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
