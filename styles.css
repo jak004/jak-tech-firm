@@ -284,3 +284,15 @@ input:focus, select:focus, textarea:focus{border-color: rgba(11,91,211,.45); box
   .proof-item{min-width:unset; width:100%}
   .hero{padding-top:56px}
 }
+/* ===== REMOVE VERTICAL / REPEATED NAV MENU ON DESKTOP ===== */
+
+/* Hide the vertical mobile menu always */
+.mobile-nav {
+  display: none !important;
+}
+
+/* Hide the big repeated Contact button under it */
+.mobile-nav .btn,
+.mobile-nav button {
+  display: none !important;
+}
